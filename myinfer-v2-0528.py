@@ -107,7 +107,7 @@ config=Config(device,is_half)
 now_dir=os.getcwd()
 sys.path.append(now_dir)
 from vc_infer_pipeline import VC
-from infer_pack.models import (
+from lib.infer_pack.models import (
     SynthesizerTrnMs256NSFsid,
     SynthesizerTrnMs256NSFsid_nono,
     SynthesizerTrnMs768NSFsid,
